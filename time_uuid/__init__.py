@@ -1,8 +1,9 @@
-import uuid
+import calendar
 import datetime
-import time, calendar
-import threading
 import random
+import threading
+import time
+import uuid
 
 
 # Get offset in seconds between the UUID timestamp Epoch (1582-10-15) and
@@ -24,6 +25,7 @@ def utctime():
     """
     d = datetime.datetime.utcnow()
     return mkutime(d)
+
 
 def mkutime(d):
     """
