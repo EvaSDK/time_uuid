@@ -8,6 +8,6 @@ python:
   - "3.5"
   - "pypy"
 install:
-  - pip install coverage
+  - pip install coverage unittest2
 script:
   - nosetests

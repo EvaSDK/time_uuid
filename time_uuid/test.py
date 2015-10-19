@@ -2,8 +2,12 @@
 
 import datetime
 import random
-import unittest
 import uuid
+
+try:
+    import unittest2 as unittest
+except ImportError:
+    import unittest
 
 from time_uuid import TimeUUID
 
